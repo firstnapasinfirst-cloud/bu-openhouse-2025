@@ -5,8 +5,8 @@ type Msg = { role: "user" | "assistant"; content: string };
 
 // User data for personalized responses
 const userData = {
-  name: "",
-  fullName: "",
+  name: "มหาเทพสงครามตากสิน รุ่นใหญ่ในซอยรังสิต",
+  fullName: "มหาเทพสงครามตากสิน",
   role: "",
   skills: [
     " ", " ", " ", " ", " ", 
@@ -36,7 +36,7 @@ const userData = {
 };
 
 // System prompt for the AI assistant
-const systemPrompt = ` Your Name is "Shiro" , You are my personal AI assistant representing their professional portfolio. 
+const systemPrompt = ` Your Name is "โคล่อน" , You are my personal AI assistant representing their professional portfolio. 
 
 ABOUT ME:
 - Name: ${userData.fullName}
